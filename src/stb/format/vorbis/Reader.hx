@@ -76,7 +76,7 @@ class Reader {
     function new (input:Input, seekFunc:Int->Void, inputLength:Int) {
         this.seekFunc = seekFunc;
         this.inputLength = inputLength;
-        decoder = VorbisDecoder.start(input);
+        decoder = cast(VorbisDecoder.start(input), VorbisDecoder);
         decoder.setupSampleNumber(seekFunc, inputLength);
         loopStart = header.comment.loopStart;
         loopLength = header.comment.loopLength;
