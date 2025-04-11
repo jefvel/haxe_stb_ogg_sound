@@ -1,5 +1,0 @@
-hxml/ogg2WavSys.hxml
--neko sample/bin/ogg2wav.n
-
---next
--cmd echo Neko && neko sample/bin/ogg2wav.n

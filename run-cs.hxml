@@ -1,5 +1,0 @@
-hxml/ogg2WavSys.hxml
--cs sample/bin/cs
-
---next
--cmd echo C-Sharp && "sample/bin/cs/bin/Ogg2WavSys.exe"
